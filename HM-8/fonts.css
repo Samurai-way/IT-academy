@@ -1,0 +1,9 @@
+@font-face{
+    font-family: 'kanit';
+    src: url(fonts/Kanit/Kanit-Light.ttf);
+}
+
+@font-face{
+    font-family: 'kanit_bold';
+    src: url(fonts/Kanit/Kanit-Bold.ttf);
+}
