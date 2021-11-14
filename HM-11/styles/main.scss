@@ -1,0 +1,392 @@
+@import url(font.css);
+.imageC{
+    background-image: url(../image/bg.png);
+    height: 53vw;
+    background-size: 100% 100%;
+    padding-top: 90px;
+}
+.navbarNavWidth{
+    width: 38vw;
+    font-size: 18px;
+    font-weight: 400;
+}
+.logo{
+    font-family: 'LibreFranklin'; 
+    font-weight: 700;
+    font-size: 24px;
+}
+.about{
+    height: 554px;
+    font-family: 'LibreFranklin';
+}
+.skills{ 
+    height: 693px;
+    background-color: rgb(248, 236, 213);
+}
+.portfolio{
+    height: 822px;
+}
+.navbarWeight{
+    width: 78vw;
+    margin: -16px auto 111px;
+}
+.navColorText{
+    color: white;
+}
+.editHeroCol{
+    margin-left: 17px;
+}
+.textFontWeight{
+    font-weight: bold;
+}
+.headInfo{
+    margin-top: 20vh;
+    font-family: 'LibreFranklin';
+    font-weight: 400;
+}
+.headHi{
+    font-size: 64px;
+    font-weight: 400;
+}
+.textHead1{
+    font-size: 24px;
+    font-weight: 400;
+}
+.textWork{
+    margin-top: 110px;
+}
+.pWidth{
+    width: 76vw;
+    text-align: justify;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 28px;
+}
+.footerPortfolio{
+    height: 822px;
+    background-color: rgb(248, 236, 213);
+}
+.mbEdit1{
+    margin-bottom: 79px;
+    margin-top: 83px;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: 'LibreFranklin';
+}
+.skillsEdit{
+    @extend .mbEdit1;
+    margin-top: 68px;
+}
+.profileImage{
+    width: 350px;
+    height: 340px;
+}
+.skillEditText{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+}
+.skillEditProfile{
+    margin-bottom: 65px;
+}
+.skillEditProfile1{
+    margin-bottom: 20px;
+}
+.skillEditText1{
+    font-size: 18px;
+    line-height: 25px;
+}
+.progressBar{
+    width: 446px;
+    height: 24px;
+    background-color: lightsalmon;
+}
+.skills0{
+    height: 24px;
+    background-color: rgb(233, 92, 37);
+    width: 381px;
+}
+.skills1{
+    @extend .skills0;
+    width: 351px;
+}
+.skills2{
+    @extend .skills0;
+    width: 286px;
+}
+.portfolioEdit{
+    @extend .mbEdit1;
+    margin-top: 57px;
+    margin-bottom: 86px;
+}
+.portfolioH2{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    font-family: 'LibreFranklin';
+}
+.pWidth1{
+    @extend .pWidth;
+    width: 349px
+}
+.portfolioImage{
+    margin: 26px 0px;
+}
+.portfolioEditImageCol{
+    margin-left: 50px;
+}
+.portfolioML{
+    margin-right: 58px;
+}
+.burger{
+    position: absolute;
+    top: 24px;
+    left: 24px;
+    visibility: hidden;
+    width: 80%;
+    margin-left: 7.1%;
+    &Menu{
+        width: 100px;
+        height: 200px;
+        display: none;
+        background-color: #F5D6AB;
+        border: black 1px solid;
+        box-shadow: 1px 1px 2px black;
+        position: absolute;
+    }
+    &:hover>.burgerMenu{
+        display: block;
+    }
+    &Logo{
+        display: flex;
+    }
+    &__image{
+        width: 24px;
+        height: 24px;
+    }
+}
+.mobileLogo{
+    visibility: hidden;
+    font-family: 'LibreFranklin';
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    color: white;
+    margin: auto;
+}
+@media screen and (max-width: 1199px){
+    .skillEditText{
+        margin-left: 115px;
+    }
+    .skillEditText1{
+        margin-left: -40px;
+    }
+    .progressBar{
+        width: 396px;
+    }
+    .skills0{
+        width: 321px;
+    }
+    .skills1{
+        width: 301px;
+    }
+    .skills2{
+        width: 236px;
+    }  
+    .editHeroCol{
+        margin-left: 0px;
+    }
+    .portfolioML{
+        margin-right: -42px;
+        margin-left: 9px;
+    }
+    .pWidth1{
+        width: 250px
+    }
+}
+@media screen and (max-width: 992px){
+    .about{
+        height: 100%;  
+    }
+    .skills{ 
+        height: 100%;  
+    }
+    .portfolio{
+        height: 100%;
+    }
+    .navbarWeight{
+        width: 68vw;
+        margin: -16px auto 50px;
+    }
+    .textWork{
+        margin-top: 55px;
+    }
+    .profileImage{
+        width: 300px;
+        height: 320px;
+    }
+    .skillEditText{
+        margin-left: 75px;
+    }
+    .skillEditText1{
+        margin-left: -35px;
+    }
+    .progressBar{
+        width: 346px;
+    }
+    .skills0{
+        width: 281px;
+    }
+    .skills1{
+        width: 251px;
+    }
+    .skills2{
+        width: 186px;
+    }
+    .pWidth1{
+        width: 700px;
+    }
+    .portfolioML{
+        padding-left: 90px;
+        margin-right: 80px;
+        margin-left: 0px;
+    }
+}
+@media screen and (max-width: 930px){
+    .navbarWeight{
+        visibility: hidden;
+        height: 0px;
+        margin: 0px;
+    }
+    .burger{
+        visibility: visible;
+    }
+    .mobileLogo{
+        visibility: visible;
+    }
+    .mobile{
+        margin-left: 10%;
+    }
+    .headInfo{
+        margin-top: 20vh;
+        font-family: 'LibreFranklin';
+        font-weight: 400;
+    }
+    .mobilePosition{
+        align-items: center;
+    }
+    .headHi{
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .textHead1{
+        font-size: 13px;
+        line-height: 16px;  
+    }
+    .textWork{
+        margin-top: 50px;
+    }
+    .pWidth{
+        width: 76vw;
+        text-align: justify;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 30px;
+        margin-bottom: 28px;
+    
+    }
+    .footerPortfolio{
+        height: 822px;
+        background-color: rgb(248, 236, 213);
+    }
+    .mbEdit1{
+        margin-bottom: 79px;
+        margin-top: 83px;
+        font-size: 24px;
+        font-weight: 600;
+        font-family: 'LibreFranklin';
+    }
+    .skillEditText{
+        margin-left: 10%;
+        margin-top: 30px;
+        width: 109px;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 25px;
+    }
+    .skillEditText1{
+        margin-left: -29px;
+    }
+    .skillEditProfile{
+        margin-bottom: 31px;
+        font-size: 12px;
+        line-height: 25px
+    }
+    .skillEditProfile1{
+        margin-bottom: 9px;
+    }
+    .skillEditText1{
+        width: 242px;
+        margin-top: 30px;
+        font-size: 12px;
+        line-height: 25px
+    }
+    .progressBar{
+        width: 211px;
+    }
+    .skills0{
+        width: 135px;
+    }
+    .skills1{
+        width: 165px;
+    }
+    .skills2{
+        width: 179px;
+    }
+    .portfolioEdit{
+        margin-top: 25px;
+        margin-bottom: 19px;
+    }
+    .mbEdit1{
+        margin-bottom: 25px;
+        margin-top: 19px;
+    }
+    .pWidth{
+        font-size: 12px;
+        line-height: 15px;
+    }
+    .profileImage{
+        width: 224px;
+        height: 218px;
+    }
+    .mobileImageL{
+        width: 170px;
+    }
+    .mobileImageR{
+        width: 124px;
+    }
+    .portfolioML{
+        margin-right: 15px;
+        padding: 0px;
+    }
+    .portfolioImage{
+        margin: 12px 0px;
+    }
+    .mobileAIC{
+        align-items: center;
+    }
+    .mobileJCSB{
+        justify-content: center;
+    }
+    .mobileFW{
+        width: 81px;
+        font-size: 14px;
+        line-height: 17px;
+        margin-left: 10%;
+    }
+    .mobileFW1{
+        @extend  .mobileFW;
+        width: 150px;
+    }
+}
