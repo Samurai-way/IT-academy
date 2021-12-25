@@ -1,2 +1,2 @@
-# IT-academy-frontend-githab
+frontend-githab
 Front-end second project
